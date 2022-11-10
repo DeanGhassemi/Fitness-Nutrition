@@ -1,3 +1,8 @@
+/** Add a new workout component
+ * 
+ * @param {*} workout Workout and the details attached 
+ * @return {JSX} adding a new workout        
+ */
 const WorkoutDetails = ({workout}) => {
     return (
         <div className="workout-details">

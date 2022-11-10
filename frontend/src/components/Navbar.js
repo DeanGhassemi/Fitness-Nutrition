@@ -1,5 +1,9 @@
 import {Link} from 'react-router-dom'
 
+/** Navigation bar
+ * 
+ * @returns {JSX} Title bar
+ */
 const Navbar = () => {
     return (
         <header>

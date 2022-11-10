@@ -1,6 +1,6 @@
 import { createContext, useReducer } from "react";
 
-export const WorkoutContext = CreateContext()
+export const WorkoutContext = createContext()
 
 /* 
     State is the previous state before making the change which is the workouts
@@ -8,7 +8,7 @@ export const WorkoutContext = CreateContext()
 
     This keeps the state in sync with the database
  */
-export const WorkoutReducer = (state, action) => {
+export const workoutsReducer = (state, action) => {
     switch (action.type){
         case 'SET_WORKOUTS':
             return {
@@ -16,7 +16,7 @@ export const WorkoutReducer = (state, action) => {
             }
         case 'CREATE_WORKOUTS':
             return {
-                workouts: [action.payload, ...state.work]
+                workouts: [action.payload, ...state.workouts]
             }
         case 'SET_WORKOUTS':
             return {
@@ -34,7 +34,7 @@ export const WorkoutContextProvider = ({ children }) => {
     })
 
     return (
-        <WorkoutContext.Provider value={{state, dispatch}}>
+        <WorkoutContext.Provider value={{...state, dispatch}}>
             {children}
         </WorkoutContext.Provider>
     )

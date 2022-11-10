@@ -1,5 +1,9 @@
 import { useState } from "react"
 
+/** Workout Form for 'Add a New Workout'
+ * 
+ * @returns Workout form to add a new workout
+ */
 const WorkoutForm = () => {
 
     const [title, setTitle] = useState('')
