@@ -10,4 +10,4 @@ This application is made using MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack.
 
 # Credits
 
-I am following a tutorial playlist by NetNinja. Not everything done in my version has been covered in the tutorial playlist as his version isn't exactly what I want to develop.https://www.youtube.com/watch?v=98BzS5Oz5E4&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE
+I am following a tutorial playlist by NetNinja. Not everything done in my version has been covered in the tutorial playlist as his version isn't exactly what I want to develop. https://www.youtube.com/watch?v=98BzS5Oz5E4&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE
